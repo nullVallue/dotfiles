@@ -1,1 +1,7 @@
 install vim-plug after installing neovim
+
+vim-plug plugins to install
+1) awesome-vim-colorschemes
+2) vim-airline
+3) vim-css-color
+4) coc.nvim
