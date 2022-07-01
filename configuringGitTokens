@@ -1,0 +1,6 @@
+1) get token from github.com
+2) brew install gh
+3) gh auth login
+4) follow prompt
+5) choose HTTPS
+6) paste token
