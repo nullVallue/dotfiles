@@ -1,0 +1,1 @@
+install vim-plug after installing neovim
