@@ -1,0 +1,2 @@
+eza (install from brew)
+zoxide

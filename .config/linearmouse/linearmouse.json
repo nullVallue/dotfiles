@@ -1,0 +1,96 @@
+{
+  "schemes" : [
+    {
+      "if" : {
+        "device" : {
+          "vendorID" : "0x5ac",
+          "productName" : "Apple Internal Keyboard \/ Trackpad",
+          "serialNumber" : "FM7015606H6N1QWA5+YDG",
+          "category" : "trackpad",
+          "productID" : "0x280"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.6875,
+        "disableAcceleration" : false,
+        "speed" : 0.0689655172413792768
+      },
+      "scrolling" : {
+        "distance" : {
+          "vertical" : "auto"
+        },
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productName" : "USB Receiver",
+          "category" : "mouse",
+          "vendorID" : "0x46d",
+          "productID" : "0xc53f"
+        }
+      },
+      "pointer" : {
+        "disableAcceleration" : true,
+        "acceleration" : 0.73
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "horizontal" : 1.36
+        },
+        "reverse" : {
+          "horizontal" : false
+        },
+        "distance" : {
+          "horizontal" : "auto"
+        },
+        "speed" : {
+          "horizontal" : 8.91
+        }
+      },
+      "buttons" : {
+        "mappings" : [
+          {
+            "shift" : false,
+            "command" : false,
+            "control" : false,
+            "action" : "mouse.button.middle",
+            "option" : false,
+            "button" : 3
+          },
+          {
+            "button" : 4,
+            "action" : "missionControl",
+            "control" : false,
+            "command" : false,
+            "option" : false,
+            "shift" : false
+          }
+        ]
+      }
+    },
+    {
+      "buttons" : {
+        "mappings" : [
+
+        ]
+      },
+      "if" : {
+        "app" : "org.mozilla.firefox",
+        "device" : {
+          "productName" : "USB Receiver",
+          "vendorID" : "0x46d",
+          "category" : "mouse",
+          "productID" : "0xc53f"
+        }
+      }
+    }
+  ],
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.9.5"
+}
