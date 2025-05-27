@@ -1,0 +1,4 @@
+Install fisher (fish shell plugin manager)
+
+Plugins to install:
+- fisher install jethrokuan/z

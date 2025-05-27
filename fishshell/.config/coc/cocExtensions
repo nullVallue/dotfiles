@@ -1,0 +1,14 @@
+brew install node
+brew install npm
+brew install yarn
+
+1) go to plugged installed location "/home/say0/.local/share/nvim/plugged"
+2) go into /coc.nvim
+3) yarn install
+4) yarn build
+
+coc-html
+coc-tsserver
+coc-pyright
+coc-json
+coc-css
